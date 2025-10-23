@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sort csv,Firefox 144.0,,,23-10-2025 19:46:57,23-10-2025 19:48:27,"1m - 29,455s",PASSED
+,,,,,,,
+Test Cases/sort product,Firefox 144.0,,,23-10-2025 19:46:59,23-10-2025 19:47:23,"24,780s",PASSED
+"DATA BINDING - {""sortType"":""az"",""expected"":""Sauce Labs Backpack""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,23-10-2025 19:47:00,23-10-2025 19:47:10,"10,283s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 144.0,,,23-10-2025 19:47:10,23-10-2025 19:47:12,"1,898s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,23-10-2025 19:47:12,23-10-2025 19:47:14,"1,327s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), ""standard_user"")",Firefox 144.0,,,23-10-2025 19:47:14,23-10-2025 19:47:15,"1,051s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,23-10-2025 19:47:15,23-10-2025 19:47:15,"0,318s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), ""secret_sauce"")",Firefox 144.0,,,23-10-2025 19:47:15,23-10-2025 19:47:16,"0,690s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,23-10-2025 19:47:16,23-10-2025 19:47:16,"0,288s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,23-10-2025 19:47:16,23-10-2025 19:47:17,"0,550s",PASSED
+delay(5),Firefox 144.0,,,23-10-2025 19:47:17,23-10-2025 19:47:22,"5,135s",PASSED
+"click(findTestObject(""Object Product Page/dropdownSort""))",Firefox 144.0,,,23-10-2025 19:47:22,23-10-2025 19:47:22,"0,511s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,23-10-2025 19:47:22,23-10-2025 19:47:23,"0,786s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,23-10-2025 19:47:23,23-10-2025 19:47:23,"0,346s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,23-10-2025 19:47:23,23-10-2025 19:47:23,"0,062s",PASSED
+,,,,,,,
+Test Cases/sort product,Firefox 144.0,,,23-10-2025 19:47:24,23-10-2025 19:47:44,"20,746s",PASSED
+"DATA BINDING - {""sortType"":""za"",""expected"":""Test.allTheThings() T-Shirt (Red)""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,23-10-2025 19:47:24,23-10-2025 19:47:32,"8,583s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 144.0,,,23-10-2025 19:47:32,23-10-2025 19:47:34,"1,418s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,23-10-2025 19:47:34,23-10-2025 19:47:35,"1,222s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), ""standard_user"")",Firefox 144.0,,,23-10-2025 19:47:35,23-10-2025 19:47:36,"0,829s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,23-10-2025 19:47:36,23-10-2025 19:47:36,"0,305s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), ""secret_sauce"")",Firefox 144.0,,,23-10-2025 19:47:36,23-10-2025 19:47:37,"0,656s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,23-10-2025 19:47:37,23-10-2025 19:47:37,"0,280s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,23-10-2025 19:47:37,23-10-2025 19:47:38,"0,586s",PASSED
+delay(5),Firefox 144.0,,,23-10-2025 19:47:38,23-10-2025 19:47:43,"5,019s",PASSED
+"click(findTestObject(""Object Product Page/dropdownSort""))",Firefox 144.0,,,23-10-2025 19:47:43,23-10-2025 19:47:43,"0,461s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,23-10-2025 19:47:43,23-10-2025 19:47:44,"0,750s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,23-10-2025 19:47:44,23-10-2025 19:47:44,"0,440s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,23-10-2025 19:47:44,23-10-2025 19:47:44,"0,003s",PASSED
+"else if (sortType == ""za"")",Firefox 144.0,,,23-10-2025 19:47:44,23-10-2025 19:47:44,"0,011s",PASSED
+,,,,,,,
+Test Cases/sort product,Firefox 144.0,,,23-10-2025 19:47:44,23-10-2025 19:48:04,"19,841s",PASSED
+"DATA BINDING - {""sortType"":""lohi"",""expected"":""$7.99""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,23-10-2025 19:47:44,23-10-2025 19:47:52,"7,790s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 144.0,,,23-10-2025 19:47:52,23-10-2025 19:47:54,"1,737s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,23-10-2025 19:47:54,23-10-2025 19:47:55,"1,090s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), ""standard_user"")",Firefox 144.0,,,23-10-2025 19:47:55,23-10-2025 19:47:56,"0,809s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,23-10-2025 19:47:56,23-10-2025 19:47:56,"0,313s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), ""secret_sauce"")",Firefox 144.0,,,23-10-2025 19:47:56,23-10-2025 19:47:57,"0,658s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,23-10-2025 19:47:57,23-10-2025 19:47:57,"0,267s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,23-10-2025 19:47:57,23-10-2025 19:47:58,"0,540s",PASSED
+delay(5),Firefox 144.0,,,23-10-2025 19:47:58,23-10-2025 19:48:03,"5,026s",PASSED
+"click(findTestObject(""Object Product Page/dropdownSort""))",Firefox 144.0,,,23-10-2025 19:48:03,23-10-2025 19:48:03,"0,425s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,23-10-2025 19:48:03,23-10-2025 19:48:04,"0,709s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,23-10-2025 19:48:04,23-10-2025 19:48:04,"0,400s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,23-10-2025 19:48:04,23-10-2025 19:48:04,"0,005s",PASSED
+"else if (sortType == ""za"")",Firefox 144.0,,,23-10-2025 19:48:04,23-10-2025 19:48:04,"0,003s",PASSED
+"else if (sortType == ""lohi"")",Firefox 144.0,,,23-10-2025 19:48:04,23-10-2025 19:48:04,"0,009s",PASSED
+,,,,,,,
+Test Cases/sort product,Firefox 144.0,,,23-10-2025 19:48:04,23-10-2025 19:48:25,"20,177s",PASSED
+"DATA BINDING - {""sortType"":""hilo"",""expected"":""$49.99""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,23-10-2025 19:48:04,23-10-2025 19:48:12,"7,800s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Firefox 144.0,,,23-10-2025 19:48:12,23-10-2025 19:48:14,"1,708s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,23-10-2025 19:48:14,23-10-2025 19:48:15,"1,393s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), ""standard_user"")",Firefox 144.0,,,23-10-2025 19:48:15,23-10-2025 19:48:16,"0,791s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,23-10-2025 19:48:16,23-10-2025 19:48:16,"0,293s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), ""secret_sauce"")",Firefox 144.0,,,23-10-2025 19:48:16,23-10-2025 19:48:17,"0,698s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,23-10-2025 19:48:17,23-10-2025 19:48:17,"0,260s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,23-10-2025 19:48:17,23-10-2025 19:48:18,"0,550s",PASSED
+delay(5),Firefox 144.0,,,23-10-2025 19:48:18,23-10-2025 19:48:23,"5,010s",PASSED
+"click(findTestObject(""Object Product Page/dropdownSort""))",Firefox 144.0,,,23-10-2025 19:48:23,23-10-2025 19:48:23,"0,450s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,23-10-2025 19:48:23,23-10-2025 19:48:24,"0,706s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,23-10-2025 19:48:24,23-10-2025 19:48:25,"0,437s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,23-10-2025 19:48:25,23-10-2025 19:48:25,"0,003s",PASSED
+"else if (sortType == ""za"")",Firefox 144.0,,,23-10-2025 19:48:25,23-10-2025 19:48:25,"0,001s",PASSED
+"else if (sortType == ""lohi"")",Firefox 144.0,,,23-10-2025 19:48:25,23-10-2025 19:48:25,"0,001s",PASSED
+"else if (sortType == ""hilo"")",Firefox 144.0,,,23-10-2025 19:48:25,23-10-2025 19:48:25,"0,008s",PASSED

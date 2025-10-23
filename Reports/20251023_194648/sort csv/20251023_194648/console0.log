@@ -1,0 +1,123 @@
+2025-10-23 19:46:57.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/sort csv
+2025-10-23 19:46:57.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Baby Grooot
+2025-10-23 19:46:57.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-web-auto
+2025-10-23 19:46:57.645 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = belajar - DESKTOP-SPLIHBS
+2025-10-23 19:46:57.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-10-23 19:46:57.660 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-10-23 19:46:57.663 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-23 19:46:59.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-23 19:46:59.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/sort product
+2025-10-23 19:46:59.365 INFO  c.k.katalon.core.main.TestCaseExecutor   - sortType = az
+2025-10-23 19:46:59.370 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Sauce Labs Backpack
+2025-10-23 19:47:00.658 DEBUG testcase.sort product                    - 1: openBrowser("")
+2025-10-23 19:47:01.424 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-23 19:47:01.770 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-23 19:47:10.756 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ec902072-3c0b-4ee1-8e36-4f1958d49962
+2025-10-23 19:47:10.761 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-23 19:47:10.768 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-23 19:47:10.772 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-23 19:47:10.803 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-23 19:47:10.943 DEBUG testcase.sort product                    - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-23 19:47:12.843 DEBUG testcase.sort product                    - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-23 19:47:14.171 DEBUG testcase.sort product                    - 4: setText(findTestObject("Object Login Page/usernameField"), "standard_user")
+2025-10-23 19:47:15.222 DEBUG testcase.sort product                    - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-23 19:47:15.546 DEBUG testcase.sort product                    - 6: setText(findTestObject("Object Login Page/passwordField"), "secret_sauce")
+2025-10-23 19:47:16.239 DEBUG testcase.sort product                    - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-23 19:47:16.527 DEBUG testcase.sort product                    - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-23 19:47:17.078 DEBUG testcase.sort product                    - 9: delay(5)
+2025-10-23 19:47:22.214 DEBUG testcase.sort product                    - 10: click(findTestObject("Object Product Page/dropdownSort"))
+2025-10-23 19:47:22.730 DEBUG testcase.sort product                    - 11: selectOptionByValue(findTestObject("Object Product Page/dropdownSort"), sortType, false)
+2025-10-23 19:47:23.525 DEBUG testcase.sort product                    - 12: firstProduct = getText(findTestObject("Object Product Page/firstProductName"))
+2025-10-23 19:47:23.872 DEBUG testcase.sort product                    - 13: if (sortType == "az")
+2025-10-23 19:47:23.878 DEBUG testcase.sort product                    - 1: verifyMatch(firstProduct, "Sauce Labs Backpack", false)
+2025-10-23 19:47:23.941 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/sort product
+2025-10-23 19:47:24.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-23 19:47:24.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/sort product
+2025-10-23 19:47:24.237 INFO  c.k.katalon.core.main.TestCaseExecutor   - sortType = za
+2025-10-23 19:47:24.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Test.allTheThings() T-Shirt (Red)
+2025-10-23 19:47:24.254 DEBUG testcase.sort product                    - 1: openBrowser("")
+2025-10-23 19:47:24.262 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-23 19:47:26.239 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-23 19:47:26.259 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-23 19:47:32.646 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 75cad056-3725-487d-8bea-6c04b0e02c62
+2025-10-23 19:47:32.652 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-23 19:47:32.682 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-23 19:47:32.695 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-23 19:47:32.724 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-23 19:47:32.837 DEBUG testcase.sort product                    - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-23 19:47:34.255 DEBUG testcase.sort product                    - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-23 19:47:35.481 DEBUG testcase.sort product                    - 4: setText(findTestObject("Object Login Page/usernameField"), "standard_user")
+2025-10-23 19:47:36.313 DEBUG testcase.sort product                    - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-23 19:47:36.619 DEBUG testcase.sort product                    - 6: setText(findTestObject("Object Login Page/passwordField"), "secret_sauce")
+2025-10-23 19:47:37.275 DEBUG testcase.sort product                    - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-23 19:47:37.556 DEBUG testcase.sort product                    - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-23 19:47:38.144 DEBUG testcase.sort product                    - 9: delay(5)
+2025-10-23 19:47:43.163 DEBUG testcase.sort product                    - 10: click(findTestObject("Object Product Page/dropdownSort"))
+2025-10-23 19:47:43.627 DEBUG testcase.sort product                    - 11: selectOptionByValue(findTestObject("Object Product Page/dropdownSort"), sortType, false)
+2025-10-23 19:47:44.379 DEBUG testcase.sort product                    - 12: firstProduct = getText(findTestObject("Object Product Page/firstProductName"))
+2025-10-23 19:47:44.819 DEBUG testcase.sort product                    - 13: if (sortType == "az")
+2025-10-23 19:47:44.822 DEBUG testcase.sort product                    - 14: else if (sortType == "za")
+2025-10-23 19:47:44.826 DEBUG testcase.sort product                    - 1: verifyMatch(firstProduct, "Test.allTheThings() T-Shirt (Red)", false)
+2025-10-23 19:47:44.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/sort product
+2025-10-23 19:47:44.940 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-23 19:47:44.940 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/sort product
+2025-10-23 19:47:44.979 INFO  c.k.katalon.core.main.TestCaseExecutor   - sortType = lohi
+2025-10-23 19:47:44.980 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = $7.99
+2025-10-23 19:47:44.984 DEBUG testcase.sort product                    - 1: openBrowser("")
+2025-10-23 19:47:44.988 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-23 19:47:46.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-23 19:47:46.823 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-23 19:47:52.554 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 98d0b97d-54dd-4c51-8d04-5a5c3002d3e3
+2025-10-23 19:47:52.555 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-23 19:47:52.558 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-23 19:47:52.596 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-23 19:47:52.603 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-23 19:47:52.774 DEBUG testcase.sort product                    - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-23 19:47:54.512 DEBUG testcase.sort product                    - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-23 19:47:55.603 DEBUG testcase.sort product                    - 4: setText(findTestObject("Object Login Page/usernameField"), "standard_user")
+2025-10-23 19:47:56.413 DEBUG testcase.sort product                    - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-23 19:47:56.727 DEBUG testcase.sort product                    - 6: setText(findTestObject("Object Login Page/passwordField"), "secret_sauce")
+2025-10-23 19:47:57.385 DEBUG testcase.sort product                    - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-23 19:47:57.652 DEBUG testcase.sort product                    - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-23 19:47:58.193 DEBUG testcase.sort product                    - 9: delay(5)
+2025-10-23 19:48:03.220 DEBUG testcase.sort product                    - 10: click(findTestObject("Object Product Page/dropdownSort"))
+2025-10-23 19:48:03.646 DEBUG testcase.sort product                    - 11: selectOptionByValue(findTestObject("Object Product Page/dropdownSort"), sortType, false)
+2025-10-23 19:48:04.359 DEBUG testcase.sort product                    - 12: firstProduct = getText(findTestObject("Object Product Page/firstProductName"))
+2025-10-23 19:48:04.761 DEBUG testcase.sort product                    - 13: if (sortType == "az")
+2025-10-23 19:48:04.766 DEBUG testcase.sort product                    - 14: else if (sortType == "za")
+2025-10-23 19:48:04.770 DEBUG testcase.sort product                    - 15: else if (sortType == "lohi")
+2025-10-23 19:48:04.773 DEBUG testcase.sort product                    - 1: verifyMatch(firstProduct, "Sauce Labs Onesie", false)
+2025-10-23 19:48:04.782 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/sort product
+2025-10-23 19:48:04.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-23 19:48:04.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/sort product
+2025-10-23 19:48:04.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - sortType = hilo
+2025-10-23 19:48:04.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = $49.99
+2025-10-23 19:48:04.898 DEBUG testcase.sort product                    - 1: openBrowser("")
+2025-10-23 19:48:04.915 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-23 19:48:06.570 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-23 19:48:06.581 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-23 19:48:12.579 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4fa0ac2b-eb2f-418b-91c1-8be31d182496
+2025-10-23 19:48:12.582 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-23 19:48:12.583 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-23 19:48:12.584 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-23 19:48:12.587 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-23 19:48:12.698 DEBUG testcase.sort product                    - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-23 19:48:14.407 DEBUG testcase.sort product                    - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-23 19:48:15.802 DEBUG testcase.sort product                    - 4: setText(findTestObject("Object Login Page/usernameField"), "standard_user")
+2025-10-23 19:48:16.593 DEBUG testcase.sort product                    - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-23 19:48:16.888 DEBUG testcase.sort product                    - 6: setText(findTestObject("Object Login Page/passwordField"), "secret_sauce")
+2025-10-23 19:48:17.587 DEBUG testcase.sort product                    - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-23 19:48:17.846 DEBUG testcase.sort product                    - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-23 19:48:18.398 DEBUG testcase.sort product                    - 9: delay(5)
+2025-10-23 19:48:23.409 DEBUG testcase.sort product                    - 10: click(findTestObject("Object Product Page/dropdownSort"))
+2025-10-23 19:48:23.861 DEBUG testcase.sort product                    - 11: selectOptionByValue(findTestObject("Object Product Page/dropdownSort"), sortType, false)
+2025-10-23 19:48:24.567 DEBUG testcase.sort product                    - 12: firstProduct = getText(findTestObject("Object Product Page/firstProductName"))
+2025-10-23 19:48:25.005 DEBUG testcase.sort product                    - 13: if (sortType == "az")
+2025-10-23 19:48:25.008 DEBUG testcase.sort product                    - 14: else if (sortType == "za")
+2025-10-23 19:48:25.010 DEBUG testcase.sort product                    - 15: else if (sortType == "lohi")
+2025-10-23 19:48:25.012 DEBUG testcase.sort product                    - 16: else if (sortType == "hilo")
+2025-10-23 19:48:25.017 DEBUG testcase.sort product                    - 1: verifyMatch(firstProduct, "Sauce Labs Fleece Jacket", false)
+2025-10-23 19:48:25.025 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/sort product
+2025-10-23 19:48:27.044 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-23 19:48:27.044 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/sort csv
+2025-10-23 19:48:27.044 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

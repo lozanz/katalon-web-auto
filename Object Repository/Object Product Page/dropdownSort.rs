@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownSort</name>
+   <tag></tag>
+   <elementGuidId>3e43712c-b1e7-42ee-b66a-f6a8e9bae4bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@class='product_sort_container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@class='product_sort_container']</value>
+      <webElementGuid>4c4bb6b3-7755-40c9-8fa9-08a359780ddb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstPrice</name>
+   <tag></tag>
+   <elementGuidId>acd02683-5e23-4a7a-8232-b0f4e80b288f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class='inventory_item_price'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class='inventory_item_price'])[1]</value>
+      <webElementGuid>d54b3483-78c4-465d-bcc7-342e27b493d9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
