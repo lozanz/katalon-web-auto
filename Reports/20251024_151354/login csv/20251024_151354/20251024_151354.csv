@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login csv,Firefox 144.0,,,24-10-2025 15:14:06,24-10-2025 15:15:44,"1m - 37,241s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC01-login,Firefox 144.0,,,24-10-2025 15:14:08,24-10-2025 15:14:30,"21,904s",PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":"""",""testType"":""valid"",""username"":""standard_user""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,24-10-2025 15:14:09,24-10-2025 15:14:19,"10,213s",PASSED
+navigateToUrl(baseUrl),Firefox 144.0,,,24-10-2025 15:14:19,24-10-2025 15:14:23,"3,540s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,24-10-2025 15:14:23,24-10-2025 15:14:24,"1,218s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), username)",Firefox 144.0,,,24-10-2025 15:14:24,24-10-2025 15:14:25,"1,028s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,24-10-2025 15:14:25,24-10-2025 15:14:26,"0,301s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), password)",Firefox 144.0,,,24-10-2025 15:14:26,24-10-2025 15:14:26,"0,755s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,24-10-2025 15:14:26,24-10-2025 15:14:27,"0,307s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,24-10-2025 15:14:27,24-10-2025 15:14:27,"0,591s",PASSED
+"if (testType == ""valid"")",Firefox 144.0,,,24-10-2025 15:14:27,24-10-2025 15:14:28,"0,371s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:14:28,24-10-2025 15:14:30,"2,161s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC01-login,Firefox 144.0,,,24-10-2025 15:14:30,24-10-2025 15:14:44,"14,369s",PASSED
+"DATA BINDING - {""password"":"""",""expected"":""Epic sadface: Password is required"",""testType"":""emptyPass"",""username"":""standard_user""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,24-10-2025 15:14:30,24-10-2025 15:14:36,"6,080s",PASSED
+navigateToUrl(baseUrl),Firefox 144.0,,,24-10-2025 15:14:36,24-10-2025 15:14:38,"2,051s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,24-10-2025 15:14:38,24-10-2025 15:14:40,"1,376s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), username)",Firefox 144.0,,,24-10-2025 15:14:40,24-10-2025 15:14:40,"0,784s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,24-10-2025 15:14:40,24-10-2025 15:14:41,"0,283s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), password)",Firefox 144.0,,,24-10-2025 15:14:41,24-10-2025 15:14:41,"0,691s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,24-10-2025 15:14:41,24-10-2025 15:14:42,"0,280s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,24-10-2025 15:14:42,24-10-2025 15:14:42,"0,443s",PASSED
+"if (testType == ""valid"")",Firefox 144.0,,,24-10-2025 15:14:42,24-10-2025 15:14:42,"0,002s",PASSED
+"else if (testType == ""emptyUser"")",Firefox 144.0,,,24-10-2025 15:14:42,24-10-2025 15:14:42,"0,005s",PASSED
+"else if (testType == ""emptyPass"")",Firefox 144.0,,,24-10-2025 15:14:42,24-10-2025 15:14:43,"0,483s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:14:43,24-10-2025 15:14:44,"1,758s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC01-login,Firefox 144.0,,,24-10-2025 15:14:44,24-10-2025 15:14:59,"14,737s",PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":""Epic sadface: Username is required"",""testType"":""emptyUser"",""username"":""""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,24-10-2025 15:14:44,24-10-2025 15:14:51,"6,704s",PASSED
+navigateToUrl(baseUrl),Firefox 144.0,,,24-10-2025 15:14:51,24-10-2025 15:14:53,"1,810s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,24-10-2025 15:14:53,24-10-2025 15:14:54,"1,345s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), username)",Firefox 144.0,,,24-10-2025 15:14:54,24-10-2025 15:14:55,"0,720s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,24-10-2025 15:14:55,24-10-2025 15:14:55,"0,285s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), password)",Firefox 144.0,,,24-10-2025 15:14:55,24-10-2025 15:14:56,"0,728s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,24-10-2025 15:14:56,24-10-2025 15:14:56,"0,262s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,24-10-2025 15:14:56,24-10-2025 15:14:57,"0,437s",PASSED
+"if (testType == ""valid"")",Firefox 144.0,,,24-10-2025 15:14:57,24-10-2025 15:14:57,"0,008s",PASSED
+"else if (testType == ""emptyUser"")",Firefox 144.0,,,24-10-2025 15:14:57,24-10-2025 15:14:57,"0,474s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:14:57,24-10-2025 15:14:59,"1,855s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC01-login,Firefox 144.0,,,24-10-2025 15:14:59,24-10-2025 15:15:25,"25,486s",PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":""Epic sadface: Username and password do not match any user in this service"",""testType"":""wronginput"",""username"":""tidak benar""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,24-10-2025 15:14:59,24-10-2025 15:15:06,"7,052s",PASSED
+navigateToUrl(baseUrl),Firefox 144.0,,,24-10-2025 15:15:06,24-10-2025 15:15:08,"1,879s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,24-10-2025 15:15:08,24-10-2025 15:15:10,"1,412s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), username)",Firefox 144.0,,,24-10-2025 15:15:10,24-10-2025 15:15:11,"0,922s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,24-10-2025 15:15:11,24-10-2025 15:15:11,"0,287s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), password)",Firefox 144.0,,,24-10-2025 15:15:11,24-10-2025 15:15:11,"0,638s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,24-10-2025 15:15:11,24-10-2025 15:15:12,"0,284s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,24-10-2025 15:15:12,24-10-2025 15:15:12,"0,486s",PASSED
+"if (testType == ""valid"")",Firefox 144.0,,,24-10-2025 15:15:12,24-10-2025 15:15:12,"0,005s",PASSED
+"else if (testType == ""emptyUser"")",Firefox 144.0,,,24-10-2025 15:15:12,24-10-2025 15:15:12,"0,002s",PASSED
+"else if (testType == ""emptyPass"")",Firefox 144.0,,,24-10-2025 15:15:12,24-10-2025 15:15:12,"0,005s",PASSED
+else,Firefox 144.0,,,24-10-2025 15:15:12,24-10-2025 15:15:23,"10,354s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:15:23,24-10-2025 15:15:25,"2,090s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC01-login,Firefox 144.0,,,24-10-2025 15:15:25,24-10-2025 15:15:43,"18,646s",PASSED
+"DATA BINDING - {""password"":""salah"",""expected"":""Epic sadface: Username and password do not match any user in this service"",""testType"":""wronginput"",""username"":""standard_user""}",,,,,,,
+"openBrowser("""")",Firefox 144.0,,,24-10-2025 15:15:25,24-10-2025 15:15:31,"6,450s",PASSED
+navigateToUrl(baseUrl),Firefox 144.0,,,24-10-2025 15:15:31,24-10-2025 15:15:33,"2,049s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/usernameField""), 1)",Firefox 144.0,,,24-10-2025 15:15:33,24-10-2025 15:15:35,"1,310s",PASSED
+"setText(findTestObject(""Object Login Page/usernameField""), username)",Firefox 144.0,,,24-10-2025 15:15:35,24-10-2025 15:15:36,"0,881s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/passwordField""), 1)",Firefox 144.0,,,24-10-2025 15:15:36,24-10-2025 15:15:36,"0,270s",PASSED
+"setText(findTestObject(""Object Login Page/passwordField""), password)",Firefox 144.0,,,24-10-2025 15:15:36,24-10-2025 15:15:37,"0,671s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,24-10-2025 15:15:37,24-10-2025 15:15:37,"0,279s",PASSED
+"click(findTestObject(""Object Login Page/loginBtn""))",Firefox 144.0,,,24-10-2025 15:15:37,24-10-2025 15:15:37,"0,481s",PASSED
+"if (testType == ""valid"")",Firefox 144.0,,,24-10-2025 15:15:37,24-10-2025 15:15:37,"0,001s",PASSED
+"else if (testType == ""emptyUser"")",Firefox 144.0,,,24-10-2025 15:15:37,24-10-2025 15:15:37,"0,001s",PASSED
+"else if (testType == ""emptyPass"")",Firefox 144.0,,,24-10-2025 15:15:37,24-10-2025 15:15:37,"0,005s",PASSED
+else,Firefox 144.0,,,24-10-2025 15:15:37,24-10-2025 15:15:41,"4,157s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:15:41,24-10-2025 15:15:43,"1,963s",PASSED

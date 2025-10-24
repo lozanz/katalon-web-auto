@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sort csv,Firefox 144.0,,,24-10-2025 15:34:04,24-10-2025 15:35:31,"1m - 26,776s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC02-sort product,Firefox 144.0,,,24-10-2025 15:34:06,24-10-2025 15:34:32,"26,568s",PASSED
+"DATA BINDING - {""sortType"":""az"",""expected"":""Sauce Labs Backpack""}",,,,,,,
+"callTestCase(findTestCase(""saucedemo/login""), [:], STOP_ON_FAILURE)",Firefox 144.0,,,24-10-2025 15:34:07,24-10-2025 15:34:29,"22,585s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,24-10-2025 15:34:29,24-10-2025 15:34:30,"0,690s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,24-10-2025 15:34:30,24-10-2025 15:34:30,"0,327s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,24-10-2025 15:34:30,24-10-2025 15:34:30,"0,027s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:34:30,24-10-2025 15:34:32,"1,723s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC02-sort product,Firefox 144.0,,,24-10-2025 15:34:32,24-10-2025 15:34:52,"20,031s",PASSED
+"DATA BINDING - {""sortType"":""za"",""expected"":""Test.allTheThings() T-Shirt (Red)""}",,,,,,,
+"callTestCase(findTestCase(""saucedemo/login""), [:], STOP_ON_FAILURE)",Firefox 144.0,,,24-10-2025 15:34:32,24-10-2025 15:34:49,"17,203s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,24-10-2025 15:34:49,24-10-2025 15:34:50,"0,708s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,24-10-2025 15:34:50,24-10-2025 15:34:51,"0,396s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,24-10-2025 15:34:51,24-10-2025 15:34:51,"0,003s",PASSED
+"else if (sortType == ""za"")",Firefox 144.0,,,24-10-2025 15:34:51,24-10-2025 15:34:51,"0,008s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:34:51,24-10-2025 15:34:52,"1,653s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC02-sort product,Firefox 144.0,,,24-10-2025 15:34:52,24-10-2025 15:35:11,"19,153s",PASSED
+"DATA BINDING - {""sortType"":""lohi"",""expected"":""Sauce Labs Onesie""}",,,,,,,
+"callTestCase(findTestCase(""saucedemo/login""), [:], STOP_ON_FAILURE)",Firefox 144.0,,,24-10-2025 15:34:52,24-10-2025 15:35:09,"16,407s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,24-10-2025 15:35:09,24-10-2025 15:35:09,"0,659s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,24-10-2025 15:35:09,24-10-2025 15:35:10,"0,396s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,24-10-2025 15:35:10,24-10-2025 15:35:10,"0,003s",PASSED
+"else if (sortType == ""za"")",Firefox 144.0,,,24-10-2025 15:35:10,24-10-2025 15:35:10,"0,002s",PASSED
+"else if (sortType == ""lohi"")",Firefox 144.0,,,24-10-2025 15:35:10,24-10-2025 15:35:10,"0,009s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:35:10,24-10-2025 15:35:11,"1,637s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC02-sort product,Firefox 144.0,,,24-10-2025 15:35:12,24-10-2025 15:35:31,"19,515s",PASSED
+"DATA BINDING - {""sortType"":""hilo"",""expected"":""Sauce Labs Fleece Jacket""}",,,,,,,
+"callTestCase(findTestCase(""saucedemo/login""), [:], STOP_ON_FAILURE)",Firefox 144.0,,,24-10-2025 15:35:12,24-10-2025 15:35:28,"16,335s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), sortType, false)",Firefox 144.0,,,24-10-2025 15:35:28,24-10-2025 15:35:29,"0,667s",PASSED
+"firstProduct = getText(findTestObject(""Object Product Page/firstProductName""))",Firefox 144.0,,,24-10-2025 15:35:29,24-10-2025 15:35:29,"0,383s",PASSED
+"if (sortType == ""az"")",Firefox 144.0,,,24-10-2025 15:35:29,24-10-2025 15:35:29,"0,002s",PASSED
+"else if (sortType == ""za"")",Firefox 144.0,,,24-10-2025 15:35:29,24-10-2025 15:35:29,"0,002s",PASSED
+"else if (sortType == ""lohi"")",Firefox 144.0,,,24-10-2025 15:35:29,24-10-2025 15:35:29,"0,003s",PASSED
+"else if (sortType == ""hilo"")",Firefox 144.0,,,24-10-2025 15:35:29,24-10-2025 15:35:29,"0,009s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:35:29,24-10-2025 15:35:31,"2,077s",PASSED

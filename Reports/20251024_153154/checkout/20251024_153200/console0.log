@@ -1,0 +1,61 @@
+2025-10-24 15:35:39.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/checkout
+2025-10-24 15:35:39.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Baby Grooot
+2025-10-24 15:35:40.002 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-web-auto
+2025-10-24 15:35:40.005 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = belajar - DESKTOP-SPLIHBS
+2025-10-24 15:35:40.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-10-24 15:35:40.009 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-10-24 15:35:40.013 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-24 15:35:41.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:35:41.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/saucedemo/TC03-checkout
+2025-10-24 15:35:42.172 DEBUG testcase.TC03-checkout                   - 1: callTestCase(findTestCase("saucedemo/login"), [:], STOP_ON_FAILURE)
+2025-10-24 15:35:42.518 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:35:42.518 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/saucedemo/login
+2025-10-24 15:35:42.674 DEBUG testcase.login                           - 1: openBrowser("")
+2025-10-24 15:35:43.078 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-24 15:35:43.352 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-24 15:35:52.019 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 61bb1259-11bc-493d-a811-55a88a62727f
+2025-10-24 15:35:52.021 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-24 15:35:52.023 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-24 15:35:52.027 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-24 15:35:52.059 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-24 15:35:52.212 DEBUG testcase.login                           - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-24 15:35:55.611 DEBUG testcase.login                           - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-24 15:35:56.415 DEBUG testcase.login                           - 4: setText(findTestObject("Object Login Page/usernameField"), "standard_user")
+2025-10-24 15:35:57.375 DEBUG testcase.login                           - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-24 15:35:57.644 DEBUG testcase.login                           - 6: setText(findTestObject("Object Login Page/passwordField"), "secret_sauce")
+2025-10-24 15:35:58.319 DEBUG testcase.login                           - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:35:58.603 DEBUG testcase.login                           - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-24 15:35:59.133 DEBUG testcase.login                           - 9: delay(5)
+2025-10-24 15:36:04.192 DEBUG testcase.login                           - 10: verifyElementText(findTestObject("Object Product Page/textProducts"), "Products")
+2025-10-24 15:36:04.537 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/saucedemo/login
+2025-10-24 15:36:04.537 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:36:04.552 DEBUG testcase.TC03-checkout                   - 2: selectOptionByValue(findTestObject("Object Product Page/dropdownSort"), "hilo", false)
+2025-10-24 15:36:05.285 DEBUG testcase.TC03-checkout                   - 3: click(findTestObject("Object Product Page/addToCart4"))
+2025-10-24 15:36:05.769 DEBUG testcase.TC03-checkout                   - 4: click(findTestObject("Object Product Page/addToCart3"))
+2025-10-24 15:36:06.234 DEBUG testcase.TC03-checkout                   - 5: click(findTestObject("Object Product Page/addToCart2"))
+2025-10-24 15:36:08.377 DEBUG testcase.TC03-checkout                   - 6: click(findTestObject("Object Product Page/cartIcon"))
+2025-10-24 15:36:08.882 DEBUG testcase.TC03-checkout                   - 7: verifyElementText(findTestObject("Object Cart Page/textYourCart"), "Your Cart")
+2025-10-24 15:36:09.291 DEBUG testcase.TC03-checkout                   - 8: click(findTestObject("Object Cart Page/removeProduct", ["index":2]))
+2025-10-24 15:36:09.728 DEBUG testcase.TC03-checkout                   - 9: click(findTestObject("Object Cart Page/chekoutBtn"))
+2025-10-24 15:36:10.165 DEBUG testcase.TC03-checkout                   - 10: verifyElementText(findTestObject("Object Cart Page/textChekoutInform"), "Checkout: Your Information")
+2025-10-24 15:36:10.585 DEBUG testcase.TC03-checkout                   - 11: verifyElementPresent(findTestObject("Object Cart Page/firstnameField"), 1)
+2025-10-24 15:36:10.863 DEBUG testcase.TC03-checkout                   - 12: setText(findTestObject("Object Cart Page/firstnameField"), "Baby")
+2025-10-24 15:36:11.543 DEBUG testcase.TC03-checkout                   - 13: verifyElementPresent(findTestObject("Object Cart Page/lastnameField"), 1)
+2025-10-24 15:36:12.041 DEBUG testcase.TC03-checkout                   - 14: setText(findTestObject("Object Cart Page/lastnameField"), "Groot")
+2025-10-24 15:36:12.677 DEBUG testcase.TC03-checkout                   - 15: verifyElementPresent(findTestObject("Object Cart Page/postalCodeField"), 1)
+2025-10-24 15:36:13.164 DEBUG testcase.TC03-checkout                   - 16: setText(findTestObject("Object Cart Page/postalCodeField"), "25586")
+2025-10-24 15:36:13.771 DEBUG testcase.TC03-checkout                   - 17: click(findTestObject("Object Cart Page/continueBtn"))
+2025-10-24 15:36:14.401 DEBUG testcase.TC03-checkout                   - 18: verifyElementText(findTestObject("Object Cart Page/textChekcoutOverview"), "Checkout: Overview")
+2025-10-24 15:36:14.814 DEBUG testcase.TC03-checkout                   - 19: click(findTestObject("Object Cart Page/finishBtn"))
+2025-10-24 15:36:15.216 DEBUG testcase.TC03-checkout                   - 20: verifyElementText(findTestObject("Object Cart Page/textChekcoutComplete"), "Checkout: Complete!")
+2025-10-24 15:36:15.628 DEBUG testcase.TC03-checkout                   - 21: click(findTestObject("Object Cart Page/backHomebtn"))
+2025-10-24 15:36:16.013 DEBUG testcase.TC03-checkout                   - 22: verifyElementPresent(findTestObject("Object Product Page/menuBtn"), 1)
+2025-10-24 15:36:16.404 DEBUG testcase.TC03-checkout                   - 23: click(findTestObject("Object Product Page/menuBtn"))
+2025-10-24 15:36:16.785 DEBUG testcase.TC03-checkout                   - 24: verifyElementPresent(findTestObject("Object Product Page/logoutBtn"), 1)
+2025-10-24 15:36:17.047 DEBUG testcase.TC03-checkout                   - 25: click(findTestObject("Object Product Page/logoutBtn"))
+2025-10-24 15:36:17.450 DEBUG testcase.TC03-checkout                   - 26: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:36:17.820 DEBUG testcase.TC03-checkout                   - 27: closeBrowser()
+2025-10-24 15:36:19.722 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/saucedemo/TC03-checkout
+2025-10-24 15:36:19.788 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-24 15:36:19.788 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/checkout
+2025-10-24 15:36:19.788 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

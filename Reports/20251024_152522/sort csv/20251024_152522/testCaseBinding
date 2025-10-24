@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/saucedemo/TC02-sort product","testCaseId":"Test Cases/saucedemo/TC02-sort product","iterationVariableName":"","bindedValues":{"sortType":"\u0027az\u0027","expected":"\u0027Sauce Labs Backpack\u0027"}}
+{"testCaseName":"Test Cases/saucedemo/TC02-sort product","testCaseId":"Test Cases/saucedemo/TC02-sort product","iterationVariableName":"","bindedValues":{"sortType":"\u0027za\u0027","expected":"\u0027Test.allTheThings() T-Shirt (Red)\u0027"}}
+{"testCaseName":"Test Cases/saucedemo/TC02-sort product","testCaseId":"Test Cases/saucedemo/TC02-sort product","iterationVariableName":"","bindedValues":{"sortType":"\u0027lohi\u0027","expected":"\u0027Sauce Labs Onesie\u0027"}}
+{"testCaseName":"Test Cases/saucedemo/TC02-sort product","testCaseId":"Test Cases/saucedemo/TC02-sort product","iterationVariableName":"","bindedValues":{"sortType":"\u0027hilo\u0027","expected":"\u0027Sauce Labs Fleece Jacket\u0027"}}

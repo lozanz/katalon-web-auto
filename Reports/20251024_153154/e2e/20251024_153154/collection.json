@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/e2e",
+  "name": "e2e",
+  "reportFolder": "C:\\Users\\Baby Groot\\git\\katalon-web-auto\\Reports\\20251024_153154\\e2e\\20251024_153154",
+  "startTime": 1761294723263,
+  "endTime": 1761294980413,
+  "totalPassedTestCases": "10",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "10",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

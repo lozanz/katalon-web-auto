@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkout,Firefox 144.0,,,24-10-2025 15:35:39,24-10-2025 15:36:19,"39,835s",PASSED
+,,,,,,,
+Test Cases/saucedemo/TC03-checkout,Firefox 144.0,,,24-10-2025 15:35:41,24-10-2025 15:36:19,"38,594s",PASSED
+"callTestCase(findTestCase(""saucedemo/login""), [:], STOP_ON_FAILURE)",Firefox 144.0,,,24-10-2025 15:35:42,24-10-2025 15:36:04,"22,380s",PASSED
+"selectOptionByValue(findTestObject(""Object Product Page/dropdownSort""), ""hilo"", false)",Firefox 144.0,,,24-10-2025 15:36:04,24-10-2025 15:36:05,"0,733s",PASSED
+"click(findTestObject(""Object Product Page/addToCart4""))",Firefox 144.0,,,24-10-2025 15:36:05,24-10-2025 15:36:05,"0,482s",PASSED
+"click(findTestObject(""Object Product Page/addToCart3""))",Firefox 144.0,,,24-10-2025 15:36:05,24-10-2025 15:36:06,"0,465s",PASSED
+"click(findTestObject(""Object Product Page/addToCart2""))",Firefox 144.0,,,24-10-2025 15:36:06,24-10-2025 15:36:08,"2,141s",PASSED
+"click(findTestObject(""Object Product Page/cartIcon""))",Firefox 144.0,,,24-10-2025 15:36:08,24-10-2025 15:36:08,"0,504s",PASSED
+"verifyElementText(findTestObject(""Object Cart Page/textYourCart""), ""Your Cart"")",Firefox 144.0,,,24-10-2025 15:36:08,24-10-2025 15:36:09,"0,409s",PASSED
+"click(findTestObject(""Object Cart Page/removeProduct"", [""index"":2]))",Firefox 144.0,,,24-10-2025 15:36:09,24-10-2025 15:36:09,"0,436s",PASSED
+"click(findTestObject(""Object Cart Page/chekoutBtn""))",Firefox 144.0,,,24-10-2025 15:36:09,24-10-2025 15:36:10,"0,432s",PASSED
+"verifyElementText(findTestObject(""Object Cart Page/textChekoutInform""), ""Checkout: Your Information"")",Firefox 144.0,,,24-10-2025 15:36:10,24-10-2025 15:36:10,"0,419s",PASSED
+"verifyElementPresent(findTestObject(""Object Cart Page/firstnameField""), 1)",Firefox 144.0,,,24-10-2025 15:36:10,24-10-2025 15:36:10,"0,276s",PASSED
+"setText(findTestObject(""Object Cart Page/firstnameField""), ""Baby"")",Firefox 144.0,,,24-10-2025 15:36:10,24-10-2025 15:36:11,"0,678s",PASSED
+"verifyElementPresent(findTestObject(""Object Cart Page/lastnameField""), 1)",Firefox 144.0,,,24-10-2025 15:36:11,24-10-2025 15:36:12,"0,498s",PASSED
+"setText(findTestObject(""Object Cart Page/lastnameField""), ""Groot"")",Firefox 144.0,,,24-10-2025 15:36:12,24-10-2025 15:36:12,"0,633s",PASSED
+"verifyElementPresent(findTestObject(""Object Cart Page/postalCodeField""), 1)",Firefox 144.0,,,24-10-2025 15:36:12,24-10-2025 15:36:13,"0,487s",PASSED
+"setText(findTestObject(""Object Cart Page/postalCodeField""), ""25586"")",Firefox 144.0,,,24-10-2025 15:36:13,24-10-2025 15:36:13,"0,604s",PASSED
+"click(findTestObject(""Object Cart Page/continueBtn""))",Firefox 144.0,,,24-10-2025 15:36:13,24-10-2025 15:36:14,"0,629s",PASSED
+"verifyElementText(findTestObject(""Object Cart Page/textChekcoutOverview""), ""Checkout: Overview"")",Firefox 144.0,,,24-10-2025 15:36:14,24-10-2025 15:36:14,"0,412s",PASSED
+"click(findTestObject(""Object Cart Page/finishBtn""))",Firefox 144.0,,,24-10-2025 15:36:14,24-10-2025 15:36:15,"0,401s",PASSED
+"verifyElementText(findTestObject(""Object Cart Page/textChekcoutComplete""), ""Checkout: Complete!"")",Firefox 144.0,,,24-10-2025 15:36:15,24-10-2025 15:36:15,"0,411s",PASSED
+"click(findTestObject(""Object Cart Page/backHomebtn""))",Firefox 144.0,,,24-10-2025 15:36:15,24-10-2025 15:36:16,"0,384s",PASSED
+"verifyElementPresent(findTestObject(""Object Product Page/menuBtn""), 1)",Firefox 144.0,,,24-10-2025 15:36:16,24-10-2025 15:36:16,"0,389s",PASSED
+"click(findTestObject(""Object Product Page/menuBtn""))",Firefox 144.0,,,24-10-2025 15:36:16,24-10-2025 15:36:16,"0,382s",PASSED
+"verifyElementPresent(findTestObject(""Object Product Page/logoutBtn""), 1)",Firefox 144.0,,,24-10-2025 15:36:16,24-10-2025 15:36:17,"0,261s",PASSED
+"click(findTestObject(""Object Product Page/logoutBtn""))",Firefox 144.0,,,24-10-2025 15:36:17,24-10-2025 15:36:17,"0,401s",PASSED
+"verifyElementPresent(findTestObject(""Object Login Page/loginBtn""), 1)",Firefox 144.0,,,24-10-2025 15:36:17,24-10-2025 15:36:17,"0,369s",PASSED
+closeBrowser(),Firefox 144.0,,,24-10-2025 15:36:17,24-10-2025 15:36:19,"1,899s",PASSED

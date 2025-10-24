@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login csv" time="103.86" tests="5" failures="0" errors="0">
+   <testsuite name="login csv" tests="5" failures="0" errors="0" time="103.86" skipped="0" timestamp="2025-10-24T08:32:12.462Z" hostname="belajar - DESKTOP-SPLIHBS" id="Test Suites/login csv">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Baby Groot\\git\\katalon-web-auto\\Reports\\20251024_153154\\login csv\\20251024_153155"/>
+         <property name="logFiles" value="C:\\Users\\Baby Groot\\git\\katalon-web-auto\\Reports\\20251024_153154\\login csv\\20251024_153155\\console0.log, C:\\Users\\Baby Groot\\git\\katalon-web-auto\\Reports\\20251024_153154\\login csv\\20251024_153155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="belajar - DESKTOP-SPLIHBS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Firefox 144.0"/>
+         <property name="userFullName" value="Baby Grooot"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="sessionId" value="217a188e-208a-493e-a9e1-d5a25b5a0f61"/>
+         <property name="projectName" value="katalon-web-auto"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/saucedemo/TC01-login" time="23.453" classname="Test Cases/saucedemo/TC01-login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"","testType":"valid","username":"standard_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-10-2025T15:32:14 - [TEST_CASE][PASSED] - Test Cases/saucedemo/TC01-login: Test Cases/saucedemo/TC01-login
+
+24-10-2025T15:32:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2025T15:32:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+24-10-2025T15:32:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2025T15:32:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2025T15:32:28 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:32:31 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:32:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1): Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:32:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/usernameField"), username): Text 'standard_user' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:32:33 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:32:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1): Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:32:34 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:32:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/passwordField"), password): Text 'secret_sauce' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:32:34 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:32:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1): Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:32:35 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Login Page/loginBtn")): Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:32:35 - [TEST_STEP][PASSED] - if (testType == "valid"): Actual text and expected text of test object 'Object Repository/Object Product Page/textProducts' are matched.
+
+24-10-2025T15:32:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Product Page/textProducts"), "Products"): Actual text and expected text of test object 'Object Repository/Object Product Page/textProducts' are matched.
+
+24-10-2025T15:32:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Object Product Page/textProducts' are matched.
+
+24-10-2025T15:32:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-10-2025T15:32:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/saucedemo/TC01-login" time="14.783" classname="Test Cases/saucedemo/TC01-login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"","expected":"Epic sadface: Password is required","testType":"emptyPass","username":"standard_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-10-2025T15:32:37 - [TEST_CASE][PASSED] - Test Cases/saucedemo/TC01-login: Test Cases/saucedemo/TC01-login
+
+24-10-2025T15:32:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2025T15:32:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+24-10-2025T15:32:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2025T15:32:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2025T15:32:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:32:46 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:32:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1): Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:32:47 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/usernameField"), username): Text 'standard_user' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:32:48 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:32:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1): Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:32:49 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:32:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/passwordField"), password): Text '' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:32:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:32:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1): Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Login Page/loginBtn")): Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:32:50 - [TEST_STEP][PASSED] - if (testType == "valid"): null
+
+24-10-2025T15:32:50 - [TEST_STEP][PASSED] - else if (testType == "emptyUser"): null
+
+24-10-2025T15:32:50 - [TEST_STEP][PASSED] - else if (testType == "emptyPass"): Text 'Epic sadface: Password is required' is present on page 
+
+24-10-2025T15:32:50 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Password is required", false, STOP_ON_FAILURE): Text 'Epic sadface: Password is required' is present on page 
+
+24-10-2025T15:32:50 - [MESSAGE][PASSED] - Text 'Epic sadface: Password is required' is present on page 
+
+24-10-2025T15:32:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-10-2025T15:32:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/saucedemo/TC01-login" time="14.657" classname="Test Cases/saucedemo/TC01-login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"Epic sadface: Username is required","testType":"emptyUser","username":""}]]></property>
+         </properties>
+         <system-out><![CDATA[24-10-2025T15:32:52 - [TEST_CASE][PASSED] - Test Cases/saucedemo/TC01-login: Test Cases/saucedemo/TC01-login
+
+24-10-2025T15:32:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2025T15:32:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+24-10-2025T15:32:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2025T15:32:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2025T15:32:59 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:33:01 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:33:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1): Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:33:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/usernameField"), username): Text '' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:33:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:33:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1): Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:33:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/passwordField"), password): Text 'secret_sauce' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:33:04 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:33:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1): Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:33:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Login Page/loginBtn")): Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:33:05 - [TEST_STEP][PASSED] - if (testType == "valid"): null
+
+24-10-2025T15:33:05 - [TEST_STEP][PASSED] - else if (testType == "emptyUser"): Text 'Epic sadface: Username is required' is present on page 
+
+24-10-2025T15:33:05 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username is required", false, STOP_ON_FAILURE): Text 'Epic sadface: Username is required' is present on page 
+
+24-10-2025T15:33:05 - [MESSAGE][PASSED] - Text 'Epic sadface: Username is required' is present on page 
+
+24-10-2025T15:33:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-10-2025T15:33:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/saucedemo/TC01-login" time="24.441" classname="Test Cases/saucedemo/TC01-login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"Epic sadface: Username and password do not match any user in this service","testType":"wronginput","username":"tidak benar"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-10-2025T15:33:07 - [TEST_CASE][PASSED] - Test Cases/saucedemo/TC01-login: Test Cases/saucedemo/TC01-login
+
+24-10-2025T15:33:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2025T15:33:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+24-10-2025T15:33:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2025T15:33:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2025T15:33:13 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:33:16 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:33:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1): Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:33:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/usernameField"), username): Text 'tidak benar' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:33:18 - [MESSAGE][PASSED] - Text 'tidak benar' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:33:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1): Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:33:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/passwordField"), password): Text 'secret_sauce' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:33:19 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1): Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Login Page/loginBtn")): Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - if (testType == "valid"): null
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - else if (testType == "emptyUser"): null
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - else if (testType == "emptyPass"): null
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - else: Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+24-10-2025T15:33:19 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+24-10-2025T15:33:30 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+24-10-2025T15:33:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-10-2025T15:33:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/saucedemo/TC01-login" time="24.316" classname="Test Cases/saucedemo/TC01-login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"salah","expected":"Epic sadface: Username and password do not match any user in this service","testType":"wronginput","username":"standard_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-10-2025T15:33:32 - [TEST_CASE][PASSED] - Test Cases/saucedemo/TC01-login: Test Cases/saucedemo/TC01-login
+
+24-10-2025T15:33:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-10-2025T15:33:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+24-10-2025T15:33:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-10-2025T15:33:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-10-2025T15:33:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:33:40 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+24-10-2025T15:33:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1): Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:33:41 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/usernameField' is present
+
+24-10-2025T15:33:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/usernameField"), username): Text 'standard_user' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:33:42 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Object Login Page/usernameField'
+
+24-10-2025T15:33:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1): Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/passwordField' is present
+
+24-10-2025T15:33:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login Page/passwordField"), password): Text 'salah' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:33:43 - [MESSAGE][PASSED] - Text 'salah' is set on object 'Object Repository/Object Login Page/passwordField'
+
+24-10-2025T15:33:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1): Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login Page/loginBtn' is present
+
+24-10-2025T15:33:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Login Page/loginBtn")): Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login Page/loginBtn' is clicked on
+
+24-10-2025T15:33:44 - [TEST_STEP][PASSED] - if (testType == "valid"): null
+
+24-10-2025T15:33:44 - [TEST_STEP][PASSED] - else if (testType == "emptyUser"): null
+
+24-10-2025T15:33:44 - [TEST_STEP][PASSED] - else if (testType == "emptyPass"): null
+
+24-10-2025T15:33:44 - [TEST_STEP][PASSED] - else: Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+24-10-2025T15:33:44 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+24-10-2025T15:33:54 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+24-10-2025T15:33:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-10-2025T15:33:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-10-2025T15:32:12 - [TEST_SUITE][PASSED] - login csv: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

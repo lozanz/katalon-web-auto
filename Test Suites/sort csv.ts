@@ -15,7 +15,7 @@
       <guid>067f06ea-b391-4f8c-9c3e-b73c3c9be37f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/sort product</testCaseId>
+      <testCaseId>Test Cases/saucedemo/TC02-sort product</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ef7617b3-76ab-408f-a94e-c842b9ffa727</id>

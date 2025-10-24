@@ -1,0 +1,144 @@
+2025-10-24 15:32:12.133 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/login csv
+2025-10-24 15:32:12.522 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Baby Grooot
+2025-10-24 15:32:12.534 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-web-auto
+2025-10-24 15:32:12.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = belajar - DESKTOP-SPLIHBS
+2025-10-24 15:32:12.553 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-10-24 15:32:12.566 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-10-24 15:32:12.571 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-24 15:32:14.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:32:14.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/saucedemo/TC01-login
+2025-10-24 15:32:14.637 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = valid
+2025-10-24 15:32:14.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = standard_user
+2025-10-24 15:32:14.646 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-24 15:32:14.649 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = 
+2025-10-24 15:32:16.530 DEBUG testcase.TC01-login                      - 1: openBrowser("")
+2025-10-24 15:32:17.432 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-24 15:32:17.853 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-24 15:32:27.912 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fcd86ced-abdb-47cc-88ab-6a3dc15e0ac0
+2025-10-24 15:32:27.914 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-24 15:32:27.915 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-24 15:32:27.916 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-24 15:32:27.936 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-24 15:32:28.080 DEBUG testcase.TC01-login                      - 2: navigateToUrl(baseUrl)
+2025-10-24 15:32:31.497 DEBUG testcase.TC01-login                      - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-24 15:32:32.737 DEBUG testcase.TC01-login                      - 4: setText(findTestObject("Object Login Page/usernameField"), username)
+2025-10-24 15:32:33.803 DEBUG testcase.TC01-login                      - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-24 15:32:34.083 DEBUG testcase.TC01-login                      - 6: setText(findTestObject("Object Login Page/passwordField"), password)
+2025-10-24 15:32:34.804 DEBUG testcase.TC01-login                      - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:32:35.093 DEBUG testcase.TC01-login                      - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-24 15:32:35.729 DEBUG testcase.TC01-login                      - 9: if (testType == "valid")
+2025-10-24 15:32:35.736 DEBUG testcase.TC01-login                      - 1: verifyElementText(findTestObject("Object Product Page/textProducts"), "Products")
+2025-10-24 15:32:36.091 DEBUG testcase.TC01-login                      - 13: closeBrowser()
+2025-10-24 15:32:37.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/saucedemo/TC01-login
+2025-10-24 15:32:37.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:32:37.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/saucedemo/TC01-login
+2025-10-24 15:32:37.984 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = emptyPass
+2025-10-24 15:32:37.987 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = standard_user
+2025-10-24 15:32:37.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 
+2025-10-24 15:32:37.991 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Epic sadface: Password is required
+2025-10-24 15:32:38.004 DEBUG testcase.TC01-login                      - 1: openBrowser("")
+2025-10-24 15:32:38.014 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-24 15:32:38.034 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-24 15:32:44.137 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 84005979-94fd-4d20-92ea-40a446214cb5
+2025-10-24 15:32:44.140 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-24 15:32:44.141 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-24 15:32:44.142 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-24 15:32:44.145 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-24 15:32:44.358 DEBUG testcase.TC01-login                      - 2: navigateToUrl(baseUrl)
+2025-10-24 15:32:46.670 DEBUG testcase.TC01-login                      - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-24 15:32:47.921 DEBUG testcase.TC01-login                      - 4: setText(findTestObject("Object Login Page/usernameField"), username)
+2025-10-24 15:32:48.777 DEBUG testcase.TC01-login                      - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-24 15:32:49.057 DEBUG testcase.TC01-login                      - 6: setText(findTestObject("Object Login Page/passwordField"), password)
+2025-10-24 15:32:49.728 DEBUG testcase.TC01-login                      - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:32:50.029 DEBUG testcase.TC01-login                      - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-24 15:32:50.486 DEBUG testcase.TC01-login                      - 9: if (testType == "valid")
+2025-10-24 15:32:50.500 DEBUG testcase.TC01-login                      - 10: else if (testType == "emptyUser")
+2025-10-24 15:32:50.516 DEBUG testcase.TC01-login                      - 11: else if (testType == "emptyPass")
+2025-10-24 15:32:50.527 DEBUG testcase.TC01-login                      - 1: verifyTextPresent("Epic sadface: Password is required", false, STOP_ON_FAILURE)
+2025-10-24 15:32:50.960 DEBUG testcase.TC01-login                      - 13: closeBrowser()
+2025-10-24 15:32:52.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/saucedemo/TC01-login
+2025-10-24 15:32:52.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:32:52.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/saucedemo/TC01-login
+2025-10-24 15:32:52.806 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = emptyUser
+2025-10-24 15:32:52.807 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = 
+2025-10-24 15:32:52.814 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-24 15:32:52.816 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Epic sadface: Username is required
+2025-10-24 15:32:52.819 DEBUG testcase.TC01-login                      - 1: openBrowser("")
+2025-10-24 15:32:52.833 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-24 15:32:52.845 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-24 15:32:58.828 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9c3622c3-21ce-4969-8da9-a906042eda44
+2025-10-24 15:32:58.829 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-24 15:32:58.831 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-24 15:32:58.832 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-24 15:32:58.839 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-24 15:32:59.015 DEBUG testcase.TC01-login                      - 2: navigateToUrl(baseUrl)
+2025-10-24 15:33:01.065 DEBUG testcase.TC01-login                      - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-24 15:33:02.531 DEBUG testcase.TC01-login                      - 4: setText(findTestObject("Object Login Page/usernameField"), username)
+2025-10-24 15:33:03.370 DEBUG testcase.TC01-login                      - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-24 15:33:03.645 DEBUG testcase.TC01-login                      - 6: setText(findTestObject("Object Login Page/passwordField"), password)
+2025-10-24 15:33:04.314 DEBUG testcase.TC01-login                      - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:33:04.565 DEBUG testcase.TC01-login                      - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-24 15:33:05.027 DEBUG testcase.TC01-login                      - 9: if (testType == "valid")
+2025-10-24 15:33:05.035 DEBUG testcase.TC01-login                      - 10: else if (testType == "emptyUser")
+2025-10-24 15:33:05.043 DEBUG testcase.TC01-login                      - 1: verifyTextPresent("Epic sadface: Username is required", false, STOP_ON_FAILURE)
+2025-10-24 15:33:05.483 DEBUG testcase.TC01-login                      - 13: closeBrowser()
+2025-10-24 15:33:07.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/saucedemo/TC01-login
+2025-10-24 15:33:07.514 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:33:07.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/saucedemo/TC01-login
+2025-10-24 15:33:07.563 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = wronginput
+2025-10-24 15:33:07.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = tidak benar
+2025-10-24 15:33:07.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-24 15:33:07.592 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Epic sadface: Username and password do not match any user in this service
+2025-10-24 15:33:07.595 DEBUG testcase.TC01-login                      - 1: openBrowser("")
+2025-10-24 15:33:07.601 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-24 15:33:07.618 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-24 15:33:13.513 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ff54f9d8-c195-42a2-b8fe-42203f9849eb
+2025-10-24 15:33:13.530 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-24 15:33:13.534 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-24 15:33:13.560 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-24 15:33:13.585 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-24 15:33:13.729 DEBUG testcase.TC01-login                      - 2: navigateToUrl(baseUrl)
+2025-10-24 15:33:16.041 DEBUG testcase.TC01-login                      - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-24 15:33:17.314 DEBUG testcase.TC01-login                      - 4: setText(findTestObject("Object Login Page/usernameField"), username)
+2025-10-24 15:33:18.178 DEBUG testcase.TC01-login                      - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-24 15:33:18.447 DEBUG testcase.TC01-login                      - 6: setText(findTestObject("Object Login Page/passwordField"), password)
+2025-10-24 15:33:19.158 DEBUG testcase.TC01-login                      - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:33:19.413 DEBUG testcase.TC01-login                      - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-24 15:33:19.874 DEBUG testcase.TC01-login                      - 9: if (testType == "valid")
+2025-10-24 15:33:19.878 DEBUG testcase.TC01-login                      - 10: else if (testType == "emptyUser")
+2025-10-24 15:33:19.880 DEBUG testcase.TC01-login                      - 11: else if (testType == "emptyPass")
+2025-10-24 15:33:19.892 DEBUG testcase.TC01-login                      - 12: else
+2025-10-24 15:33:19.896 DEBUG testcase.TC01-login                      - 1: verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE)
+2025-10-24 15:33:30.274 DEBUG testcase.TC01-login                      - 13: closeBrowser()
+2025-10-24 15:33:31.956 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/saucedemo/TC01-login
+2025-10-24 15:33:32.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-24 15:33:32.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/saucedemo/TC01-login
+2025-10-24 15:33:32.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = wronginput
+2025-10-24 15:33:32.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = standard_user
+2025-10-24 15:33:32.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = salah
+2025-10-24 15:33:32.052 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Epic sadface: Username and password do not match any user in this service
+2025-10-24 15:33:32.061 DEBUG testcase.TC01-login                      - 1: openBrowser("")
+2025-10-24 15:33:32.068 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-10-24 15:33:32.080 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-24 15:33:38.078 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 217a188e-208a-493e-a9e1-d5a25b5a0f61
+2025-10-24 15:33:38.079 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 144.0
+2025-10-24 15:33:38.140 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-24 15:33:38.155 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-24 15:33:38.182 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-24 15:33:38.329 DEBUG testcase.TC01-login                      - 2: navigateToUrl(baseUrl)
+2025-10-24 15:33:40.359 DEBUG testcase.TC01-login                      - 3: verifyElementPresent(findTestObject("Object Login Page/usernameField"), 1)
+2025-10-24 15:33:41.795 DEBUG testcase.TC01-login                      - 4: setText(findTestObject("Object Login Page/usernameField"), username)
+2025-10-24 15:33:42.513 DEBUG testcase.TC01-login                      - 5: verifyElementPresent(findTestObject("Object Login Page/passwordField"), 1)
+2025-10-24 15:33:42.771 DEBUG testcase.TC01-login                      - 6: setText(findTestObject("Object Login Page/passwordField"), password)
+2025-10-24 15:33:43.412 DEBUG testcase.TC01-login                      - 7: verifyElementPresent(findTestObject("Object Login Page/loginBtn"), 1)
+2025-10-24 15:33:43.696 DEBUG testcase.TC01-login                      - 8: click(findTestObject("Object Login Page/loginBtn"))
+2025-10-24 15:33:44.151 DEBUG testcase.TC01-login                      - 9: if (testType == "valid")
+2025-10-24 15:33:44.158 DEBUG testcase.TC01-login                      - 10: else if (testType == "emptyUser")
+2025-10-24 15:33:44.161 DEBUG testcase.TC01-login                      - 11: else if (testType == "emptyPass")
+2025-10-24 15:33:44.163 DEBUG testcase.TC01-login                      - 12: else
+2025-10-24 15:33:44.178 DEBUG testcase.TC01-login                      - 1: verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE)
+2025-10-24 15:33:54.603 DEBUG testcase.TC01-login                      - 13: closeBrowser()
+2025-10-24 15:33:56.322 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/saucedemo/TC01-login
+2025-10-24 15:33:56.398 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-24 15:33:56.398 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/login csv
+2025-10-24 15:33:56.399 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

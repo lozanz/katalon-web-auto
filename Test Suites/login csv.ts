@@ -12,13 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3d010c98-c939-4fc4-9a88-9073f6b18a3a</testSuiteGuid>
    <testCaseLink>
-      <guid>53635ada-93d5-40f6-945d-9eb190bbfddf</guid>
+      <guid>57a7dd57-39de-423b-a5b5-a03f6d7cea4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login</testCaseId>
+      <testCaseId>Test Cases/saucedemo/TC01-login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>1d16e5f6-2c1d-4bbb-b090-75f5e91cc467</id>
+         <id>79e21283-3e95-4875-a2ba-92b287eef84a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,25 +27,25 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>1d16e5f6-2c1d-4bbb-b090-75f5e91cc467</testDataLinkId>
+         <testDataLinkId>79e21283-3e95-4875-a2ba-92b287eef84a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>testType</value>
          <variableId>104221d4-cbcf-483b-acfa-5f09dea19ff1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1d16e5f6-2c1d-4bbb-b090-75f5e91cc467</testDataLinkId>
+         <testDataLinkId>79e21283-3e95-4875-a2ba-92b287eef84a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>3b432b4f-ef1f-45a0-ac88-a5c178f4905c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1d16e5f6-2c1d-4bbb-b090-75f5e91cc467</testDataLinkId>
+         <testDataLinkId>79e21283-3e95-4875-a2ba-92b287eef84a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>617d9895-5387-4ada-abf8-6707864dc2b7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1d16e5f6-2c1d-4bbb-b090-75f5e91cc467</testDataLinkId>
+         <testDataLinkId>79e21283-3e95-4875-a2ba-92b287eef84a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>92d00e4c-e627-466c-8305-8380f2a2d00f</variableId>
